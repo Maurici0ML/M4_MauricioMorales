@@ -1,0 +1,20 @@
+Nombre del sitio web: Make It Real
+
+Página principal:  
+Debe ser una página que se vea dinámica, en la que haya una seccion donde se muestren
+fotos que suben los usuarios sobre sus eventos, ademas de su calificacion del evento.
+Que en un lado de la página aparezcan los tipos de eventos que se pueden organizar.
+
+Organiza tu evento: 
+Quiero que sea una seccion donde se puedan ver los tipos de eventos que se pueden hacer, 
+como fiestas, viajes, reuniones, seminarios, etc, y que en cada seccion se pueda ver una
+imagen que la represente, por ejemplo, en la de viajes, que salga una imagen de
+una playa, etc... 
+
+Conctactanos: 
+Una vista donde aparezcan datos para contactar a la empresa, como correo electronico,
+telefono (Whatsapp). A pesar de ser una pagina donde solo hay informacion, no se debe 
+de ver aburrida y debe de tener el nombre y el logo de la empresa presente. 
+
+*Que al final de cada página se puedan ver los datos de la empresa como la ubicacion, derechos del nombre de la empresa,  etc...*
+
