@@ -1,0 +1,244 @@
+body, html{
+    margin:0px;
+    overflow: visible;
+}
+
+/*=HEADER
+--------------------------------------------------------------------------------------------*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+h1{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150%;
+    height: 106px;
+    border: 1px solid black;
+    margin: 0;
+    background-color: #215AEB;
+}
+
+#tecno{
+    margin-left: 20px;
+    line-height: 106px;
+    letter-spacing: 0.235em;
+    color:#EB6D00;
+}
+
+#ayuda{
+    line-height: 106px;
+    letter-spacing: 0.235em;
+    color: white;
+}
+
+#slogan{
+    position: absolute;
+    right: 0;
+    /* left: calc(100% - 404px); */
+    top: 0px;
+    display: inline-block;
+    border-radius: 30% 0 0 70%;
+    box-sizing: border-box;
+    width: 65%;
+    line-height: 104px;
+    text-align: center;
+    background-color: #03609E;
+    color: white;
+}
+
+/*=BARRA DE NAVEGACION
+--------------------------------------------------------------------------------------------*/
+.buscador{
+    position: fixed;
+    display: inline-block;
+    top: 106px;
+    width: 17%;
+    height: 53px;
+    border: 1px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(3, 96, 150, 0.65);
+}
+
+.buscador > i{
+    position: relative;
+    left: 6%;
+    top: 25%;
+}
+
+.buscador > input{
+    position: relative;
+    top: 22%;
+    left: 11%;
+    border-radius: 1em;
+    width: 75%;
+    height: 50%;
+    place-content: "buscar";
+    background-color: #c4c4c4;
+    border-color: black;
+}
+
+.barra{
+    position: fixed;
+    top: 106px;
+    z-index: 10;
+    left: 17%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    width: 83%;
+    height: 53px;
+    background: rgb(163,44,0);
+    background: linear-gradient(180deg, rgba(163,44,0,1) 0%, rgba(235,109,0,1) 100%);
+}
+
+#novedades{
+    position: absolute;
+    display: inline-block;
+    border-top: 1px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    width: 33.333333%;
+    line-height: 270%;
+    text-align: center;
+    color: white;
+}
+
+#articulo{
+    position: absolute;
+    left: 33.333333%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    width: 33.333333%;
+    line-height: 270%;
+    text-align: center;
+    color: white;
+}
+#quejas{
+    position: absolute;
+    left: 66.666666%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+    box-sizing: border-box;
+    width: 33.333333%;
+    line-height: 270%;
+    text-align: center;
+    color: white;
+}
+
+/*=FILTROS
+--------------------------------------------------------------------------------------------*/
+
+.filtros{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0;
+    margin-top: 159px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 17%;
+    height: 100vh; 
+    background-color: rgba(71, 185, 255, 0.35);
+}
+
+.filtros > strong{
+    display: inline-block;
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.esp{
+    letter-spacing: .25em;
+}
+
+.filtros > span{
+    margin-left: 5%;
+    
+}
+
+.filtro, a:visited, a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a.filtro{
+    color: black; 
+}
+
+/*=ARTICULOS
+--------------------------------------------------------------------------------------------*/
+
+section{
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: right;
+    padding-bottom: 59px;
+    margin: 0px;
+    top: 141px;
+    position: relative;
+    width: 83%;
+    height: max-content;
+}
+
+
+article{
+    margin: 10px 0 10px 14px;
+    padding: 1%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    width: 48%;
+    height: 300px;
+    background-color: #B6D1E3;
+}
+
+.destacado{
+    margin-top: 14px;
+    background-color: #E4C2B5;
+}
+
+.destacadoEstrellas{
+    text-align: right;
+}
+
+.estrella{
+    color: yellow;
+}
+
+/*=FOOTER
+--------------------------------------------------------------------------------------------*/
+
+footer{
+    position:fixed;
+    bottom:0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    line-height: 59px;
+    background-color: #03609E;
+    color: white;
+    width: 100%;
+}
+
+footer :first-child{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+footer :nth-child(2), footer  :nth-child(3){
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+}

@@ -1,0 +1,30 @@
+/*=UBUNTU
+--------------------------------------------------------------------------------------------*/
+@font-face{
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+nav, #slogan, footer, section{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.barra{
+    font-size: 1.2em;
+}
+
+.titulo{
+    font-size: 2em;
+}
+/*=MEGRIM
+--------------------------------------------------------------------------------------------*/
+@font-face{
+    font-family: "Megrim";
+    src: url("../fonts/Megrim/Megrim-Regular.ttf");
+}
+
+#tecno, #ayuda{
+    font-family: "Megrim", sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+}
